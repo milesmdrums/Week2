@@ -1,0 +1,88 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    background-color: #000000;
+    font-family: "VT323", monospace;
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    color: #5f5f5f;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: #5f5f5f;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    width: 100vw;
+    height: 100vh;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+a, a:hover{
+    color: #5f5f5f;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a:visited, a:active {
+    color: #5f5f5f;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+img{
+    max-width:15%;
+    transition: transform 0.2s ease;
+}
+
+.imageComp {
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.imageComp a {
+    width: 15%;
+    display: block;
+}
+
+.imageComp img {
+    max-width: 15%;
+    height: auto;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.incorrect{
+    color:red;
+    font-weight: 400;
+    font-style: normal;
+}
