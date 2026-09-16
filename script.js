@@ -1,11 +1,3 @@
-const begin = document.getElementById("begin");
-
-if (begin) {
-  begin.addEventListener("click", function () {
-    console.log("clicked");
-  });
-}
-
 const images = document.querySelectorAll("img");
 
 images.forEach((img) => {
